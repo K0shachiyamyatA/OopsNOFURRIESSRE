@@ -8,7 +8,7 @@ Turn furries around you into Lalafells (or other races!)
 - NOFURRIES fork by me
 
 ## Usage
-unpack build archive somewhere and install using dev plugins 
+Download and unpack build archive somewhere and install using dev plugins 
 Install and enable Penumbra and OopsAllLalafellsSRE.
 
 ## ⚠️ READ THIS ⚠️
