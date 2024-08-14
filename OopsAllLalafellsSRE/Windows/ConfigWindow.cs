@@ -15,7 +15,7 @@ internal class ConfigWindow : Window
     public event Action? OnConfigChanged;
 
     public ConfigWindow(Plugin plugin) : base(
-        "OopsAllLalafellsSRE Configuration Window",
+        "OopsNOFURRIESSRE Configuration Window",
         ImGuiWindowFlags.NoResize | ImGuiWindowFlags.NoCollapse | ImGuiWindowFlags.NoScrollbar |
         ImGuiWindowFlags.NoScrollWithMouse)
     {
@@ -56,7 +56,7 @@ internal class ConfigWindow : Window
 
         ImGui.Separator();
         bool _NameHQ = configuration.nameHQ;
-        if (ImGui.Checkbox("Add HQ symbol to native lalafells\n(or other races)", ref _NameHQ))
+        if (ImGui.Checkbox("Add \u2260 symbol to NOT native lalafells\n(or other races)", ref _NameHQ))
         {
             configuration.nameHQ = _NameHQ;
             configuration.Save();

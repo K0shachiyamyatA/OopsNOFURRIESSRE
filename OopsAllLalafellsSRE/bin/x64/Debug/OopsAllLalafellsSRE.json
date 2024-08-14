@@ -1,9 +1,9 @@
 {
-  "Author": "Avaflow, Ars Magna, Kelvin",
-  "Name": "OopsAllLalafellsSRE",
+  "Author": "Avaflow, Ars Magna, Kelvin, k0shmyata",
+  "Name": "OopsNOFURRIESSRE",
   "InternalName": "OopsAllLalafellsSRE",
   "AssemblyVersion": "2.0.2.1",
-  "Description": "Turn everyone around you into Lalafells (or other races!)\n/polala on = enable plugin.\n/polala off = disable plugin.",
+  "Description": "Turn furries around you into Lalafells (or other races!)\n/nof on = enable plugin.\n/nof off = disable plugin.",
   "ApplicableVersion": "any",
   "Tags": [
     "lalafells"
@@ -13,6 +13,6 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Turn everyone around you into Lalafells (or other races!)",
+  "Punchline": "Turn furries around you into Lalafells (or other races!)",
   "AcceptsFeedback": true
 }

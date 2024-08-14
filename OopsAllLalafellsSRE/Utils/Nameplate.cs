@@ -19,11 +19,11 @@ namespace OopsAllLalafellsSRE.Utils
                         {
                             if (handler.PlayerCharacter == null) return;
 
-                            // if native lalafells
-                            if (!Drawer.NonNativeID.Contains(handler.PlayerCharacter.Name.TextValue))
+                            // if not native lalafells
+                            if (Drawer.NonNativeID.Contains(handler.PlayerCharacter.Name.TextValue))
                             {
                                 // Plugin.OutputChatLine($"Adding HQ to {handler.PlayerCharacter.Name.TextValue}");
-                                handler.NameParts.Text = $"{handler.Name} \uE03C";
+                                handler.NameParts.Text = $"{handler.Name} \u2260";
                             }
                         }
                     }

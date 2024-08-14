@@ -11,10 +11,10 @@ namespace OopsAllLalafellsSRE
 {
     internal sealed class Plugin : IDalamudPlugin
     {
-        public static string Name => "OopsAllLalafellsSRE";
-        private const string CommandName = "/polala";
+        public static string Name => "OopsNOFURRIESSRE";
+        private const string CommandName = "/nof";
 
-        public WindowSystem WindowSystem { get; } = new("OopsAllLalafellsSRE");
+        public WindowSystem WindowSystem { get; } = new("OopsNOFURRIESSRE");
 
         public Plugin(IDalamudPluginInterface pluginInterface)
         {
@@ -43,7 +43,7 @@ namespace OopsAllLalafellsSRE
 
             Service.commandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
             {
-                HelpMessage = "Opens OopsAllLalafellsSRE config menu."
+                HelpMessage = "Opens OopsNOFURRIESSRE config menu."
             });
         }
 

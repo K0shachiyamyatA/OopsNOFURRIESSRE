@@ -16,7 +16,7 @@ namespace OopsAllLalafellsSRE.Utils
             Service.configWindow.OnConfigChanged += RefreshAllPlayers;
             if (Service.configuration.enabled)
             {
-                Plugin.OutputChatLine("OopsAllLalafellsSRE starting...");
+                Plugin.OutputChatLine("OopsNOFURRIESSRE starting...");
                 RefreshAllPlayers();
             }
         }
