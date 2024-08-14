@@ -23,7 +23,7 @@ namespace OopsAllLalafellsSRE.Utils
                             if (Drawer.NonNativeID.Contains(handler.PlayerCharacter.Name.TextValue))
                             {
                                 // Plugin.OutputChatLine($"Adding HQ to {handler.PlayerCharacter.Name.TextValue}");
-                                handler.NameParts.Text = $"{handler.Name} \u2260";
+                                handler.NameParts.Text = $"{handler.Name} \uE05B";
                             }
                         }
                     }

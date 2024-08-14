@@ -56,7 +56,7 @@ internal class ConfigWindow : Window
 
         ImGui.Separator();
         bool _NameHQ = configuration.nameHQ;
-        if (ImGui.Checkbox("Add \u2260 symbol to NOT native lalafells\n(or other races)", ref _NameHQ))
+        if (ImGui.Checkbox("Add \uE05B symbol to NOT native lalafells\n(or other races)", ref _NameHQ))
         {
             configuration.nameHQ = _NameHQ;
             configuration.Save();
