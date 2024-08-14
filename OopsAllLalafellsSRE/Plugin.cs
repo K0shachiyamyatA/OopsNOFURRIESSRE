@@ -49,7 +49,7 @@ namespace OopsAllLalafellsSRE
 
         public static void OutputChatLine(SeString message)
         {
-            var sb = new SeStringBuilder().AddUiForeground("[OAL] ", 58).Append(message);
+            var sb = new SeStringBuilder().AddUiForeground("[ONF] ", 58).Append(message);
             Service.chatGui.Print(new XivChatEntry { Message = sb.BuiltString });
         }
 
