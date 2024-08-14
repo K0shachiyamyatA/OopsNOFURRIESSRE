@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j03lQKB7aoU3ri9nVcp9nAlrRBLuKDWAhpKZE4dCyvHHh323dqtRsM3vOUf6I2NJh5N2SeBRn39sy5UGXToE/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Downloads\\OopsAllLalafellsSRE-main\\OopsAllLalafellsSRE\\OopsAllLalafellsSRE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dalamudpackager\\2.1.13\\dalamudpackager.2.1.13.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\penumbra.api\\5.2.0\\penumbra.api.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
