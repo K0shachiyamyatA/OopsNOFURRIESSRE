@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "DalamudPackager/2.1.13": {
+      "DalamudPackager/11.0.0": {
         "type": "package",
         "build": {
           "build/DalamudPackager.props": {},
@@ -12,7 +12,7 @@
           "buildMultiTargeting/DalamudPackager.props": {}
         }
       },
-      "Penumbra.Api/5.2.0": {
+      "Penumbra.Api/5.3.0": {
         "type": "package",
         "compile": {
           "lib/net8.0-windows7.0/Penumbra.Api.dll": {
@@ -28,17 +28,17 @@
     }
   },
   "libraries": {
-    "DalamudPackager/2.1.13": {
-      "sha512": "rMN1omGe8536f4xLMvx9NwfvpAc9YFFfeXJ1t4P4PE6Gu8WCIoFliR1sh07hM+bfODmesk/dvMbji7vNI+B/pQ==",
+    "DalamudPackager/11.0.0": {
+      "sha512": "bjT7XUlhIJSmsE/O76b7weUX+evvGQctbQB8aKXt94o+oPWxHpCepxAGMs7Thow3AzCyqWs7cOpp9/2wcgRRQA==",
       "type": "package",
-      "path": "dalamudpackager/2.1.13",
+      "path": "dalamudpackager/11.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/DalamudPackager.props",
         "build/DalamudPackager.targets",
         "buildMultiTargeting/DalamudPackager.props",
-        "dalamudpackager.2.1.13.nupkg.sha512",
+        "dalamudpackager.11.0.0.nupkg.sha512",
         "dalamudpackager.nuspec",
         "tasks/net48/DalamudPackager.dll",
         "tasks/net48/Newtonsoft.Json.dll",
@@ -48,32 +48,32 @@
         "tasks/netstandard2.1/YamlDotNet.dll"
       ]
     },
-    "Penumbra.Api/5.2.0": {
-      "sha512": "fi36rbPTR76MTtC++0dMXmycidpGnMU2OGt+Wf/ckaEs5qmWJbIW9RE8O+rCOEFhtmzWcXIjKAMYJSSyb9nU8g==",
+    "Penumbra.Api/5.3.0": {
+      "sha512": "WThL0e5UnkIESgsvihzss91h6Ny/UUq3ghSR0/npC7rBgqnWjml7/KWcUkDMWTpw6NLUp8DAivJwOtcZR95wLA==",
       "type": "package",
-      "path": "penumbra.api/5.2.0",
+      "path": "penumbra.api/5.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net8.0-windows7.0/Penumbra.Api.dll",
         "lib/net8.0-windows7.0/Penumbra.Api.xml",
-        "penumbra.api.5.2.0.nupkg.sha512",
+        "penumbra.api.5.3.0.nupkg.sha512",
         "penumbra.api.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "DalamudPackager >= 2.1.13",
-      "Penumbra.Api >= 5.2.0"
+      "DalamudPackager >= 11.0.0",
+      "Penumbra.Api >= 5.3.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "2.0.2.1",
+    "version": "2.0.2.3",
     "restore": {
       "projectUniqueName": "C:\\Users\\user\\Downloads\\OopsAllLalafellsSRE-main\\OopsAllLalafellsSRE\\OopsAllLalafellsSRE.csproj",
       "projectName": "OopsAllLalafellsSRE",
@@ -113,11 +113,11 @@
         "dependencies": {
           "DalamudPackager": {
             "target": "Package",
-            "version": "[2.1.13, )"
+            "version": "[11.0.0, )"
           },
           "Penumbra.Api": {
             "target": "Package",
-            "version": "[5.2.0, )"
+            "version": "[5.3.0, )"
           }
         },
         "imports": [

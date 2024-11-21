@@ -13,12 +13,12 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("OopsAllLalafellsSRE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Turn everyone around you into Lalafells (or other races!)")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.2.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.2.1")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Turn furries around you into Lalafells (or other races!)")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.2.3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.2.3")]
 [assembly: System.Reflection.AssemblyProductAttribute("OopsAllLalafellsSRE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OopsAllLalafellsSRE")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.0.2.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.0.2.3")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

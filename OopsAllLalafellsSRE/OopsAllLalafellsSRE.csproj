@@ -5,8 +5,8 @@
     <PropertyGroup>
         <Authors></Authors>
         <Company></Company>
-        <Version>2.0.2.1</Version>
-        <Description>Turn everyone around you into Lalafells (or other races!)</Description>
+        <Version>2.0.2.3</Version>
+        <Description>Turn furries around you into Lalafells (or other races!)</Description>
         <Copyright></Copyright>
         <PackageProjectUrl>https://github.com/kelvin124124/OopsAllLalafellsSRE</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
@@ -14,6 +14,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Penumbra.Api" Version="5.2.0" />
+        <PackageReference Include="Penumbra.Api" Version="5.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Update="DalamudPackager" Version="11.0.0" />
     </ItemGroup>
 </Project>

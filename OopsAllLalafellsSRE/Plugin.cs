@@ -61,6 +61,7 @@ namespace OopsAllLalafellsSRE
 
             Service.penumbraApi?.Dispose();
             Service.drawer?.Dispose();
+            Service.nameplate?.Dispose();
             Service.commandManager?.RemoveHandler(CommandName);
         }
 
