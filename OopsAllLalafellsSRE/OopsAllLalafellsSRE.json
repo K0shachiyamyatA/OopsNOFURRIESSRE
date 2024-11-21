@@ -10,17 +10,13 @@
         "lalafells"
     ],
     "DalamudApiLevel": 11,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/image/icon.png",
     "Changelog": "API update",
     "AcceptsFeedback": false,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 99999,
-    "LastUpdate": 0,
+    "LastUpdate": 99999,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip"
