@@ -10,22 +10,18 @@
         "lalafells"
     ],
     "DalamudApiLevel": 11,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "ImageUrls": [
-        "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/blob/main/image/icon.png?raw=true"
-    ],
-    "IconUrl": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/blob/main/image/icon.png?raw=true",
+    "AssemblyVersion": "2.0.2.3",
+    "TestingAssemblyVersion": "2.0.2.3",
+    "IconUrl": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/image/icon.png",
     "Changelog": "API update",
     "AcceptsFeedback": false,
-    "IsHide": "False",
-    "IsTestingExclusive": "False",
-    "DownloadCount": 0,
-    "LastUpdate": "0",
-    "DownloadLinkInstall": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
-    "DownloadLinkTesting": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip"
+    "IsHide": false,
+    "TestingDalamudApiLevel": 11,
+    "IsTestingExclusive": false,
+    "DownloadCount": 99999,
+    "LastUpdate": 99999,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip"
     }
 ]
