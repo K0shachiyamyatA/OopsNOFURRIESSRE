@@ -8,7 +8,7 @@ Turn furries around you into Lalafells (or other races!)
 - NOFURRIES fork by k0shmyata
 
 ## Usage
-1) Unpack build archive somewhere and add directory(or dll path) to dev plugins under Experimental tab in dalamud settings.  
+1) Unpack build(latest.zip) archive somewhere and add directory(or dll path) to dev plugins under Experimental tab in dalamud settings.  
 2) Install and enable Penumbra and OopsNOFURRIESSRE.
 
 ## ⚠️ READ THIS ⚠️
