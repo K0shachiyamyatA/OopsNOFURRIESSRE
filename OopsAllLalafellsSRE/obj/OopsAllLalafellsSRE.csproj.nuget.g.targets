@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)dalamudpackager\11.0.0\build\DalamudPackager.targets" Condition="Exists('$(NuGetPackageRoot)dalamudpackager\11.0.0\build\DalamudPackager.targets')" />
-  </ImportGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <Target Name="EmitMSBuildWarning" BeforeTargets="Build">
+    <Warning Text="Пакеты, содержащие целевые объекты и PROPS-файлы MSBuild, не могут быть полностью установлены в проектах, предназначенных для нескольких платформ. Целевые объекты и PROPS-файлы MSBuild были пропущены." />
+  </Target>
 </Project>

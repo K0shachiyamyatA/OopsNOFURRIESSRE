@@ -8,7 +8,7 @@
         <Version>2.0.2.3</Version>
         <Description>Turn furries around you into Lalafells (or other races!)</Description>
         <Copyright></Copyright>
-        <PackageProjectUrl>https://github.com/kelvin124124/OopsAllLalafellsSRE</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
@@ -18,6 +18,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Update="DalamudPackager" Version="11.0.0" />
+      <PackageReference Update="DalamudPackager" Version="11.0.0" />
     </ItemGroup>
 </Project>

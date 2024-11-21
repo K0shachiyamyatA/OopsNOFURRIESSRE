@@ -1,5 +1,4 @@
-[
-    {
+{
     "Author": "Avaflow, Ars Magna, Kelvin, k0shmyata",
     "Name": "OopsNOFURRIESSRE",
     "Punchline": "Turn furries around you into Lalafells (or other races!)",
@@ -8,20 +7,5 @@
     "ApplicableVersion": "any",
     "Tags": [
         "lalafells"
-    ],
-    "DalamudApiLevel": 11,
-    "AssemblyVersion": "2.0.2.3",
-    "TestingAssemblyVersion": "2.0.2.3",
-    "IconUrl": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/image/icon.png",
-    "Changelog": "API update",
-    "AcceptsFeedback": false,
-    "IsHide": false,
-    "TestingDalamudApiLevel": 11,
-    "IsTestingExclusive": false,
-    "DownloadCount": 99999,
-    "LastUpdate": 99999,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/K0shachiyamyatA/OopsNOFURRIESSRE/refs/heads/main/latest.zip"
-    }
-]
+    ]
+}
