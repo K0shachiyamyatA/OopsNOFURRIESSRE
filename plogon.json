@@ -1,4 +1,5 @@
-{
+[
+    {
     "Author": "Avaflow, Ars Magna, Kelvin, k0shmyata",
     "Name": "OopsNOFURRIESSRE",
     "Punchline": "Turn furries around you into Lalafells (or other races!)",
@@ -26,4 +27,5 @@
     "DownloadLinkInstall": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
     "DownloadLinkTesting": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
     "DownloadLinkUpdate": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip"
-}
+    }
+]
