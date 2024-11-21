@@ -7,5 +7,25 @@
     "ApplicableVersion": "any",
     "Tags": [
         "lalafells"
-    ]
+    ],
+    "DalamudApiLevel": 11,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "ImageUrls": [
+        "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/blob/main/image/icon.png?raw=true"
+    ],
+    "IconUrl": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/blob/main/image/icon.png?raw=true",
+    "Changelog": "API update",
+    "AcceptsFeedback": false,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "0",
+    "DownloadLinkInstall": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
+    "DownloadLinkTesting": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/K0shachiyamyatA/OopsNOFURRIESSRE/raw/refs/heads/main/latest.zip"
+}
+
 }
