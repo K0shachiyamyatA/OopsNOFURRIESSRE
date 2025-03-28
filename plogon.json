@@ -4,7 +4,7 @@
     "Name": "OopsNOFURRIESSRE",
     "Punchline": "Turn furries around you into Lalafells (or other races!)",
     "Description": "Turn furries around you into Lalafells (or other races!)\n/nof on = enable plugin.\n/nof off = disable plugin.",
-    "InternalName": "OopsAllLalafellsSRE",
+    "InternalName": "OopsNOFURRIESSRE",
     "ApplicableVersion": "any",
     "Tags": [
         "lalafells"

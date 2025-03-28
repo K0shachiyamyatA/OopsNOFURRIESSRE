@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "63wRtKbN1YLv6mrsOQRWloKdcsIH5HVNDiadTQCnLlDE5gmZtXmiRPXJxseqnGTsV06DDobigmm2S16T07hltw==",
-  "success": false,
+  "dgSpecHash": "jrEWi9pbtvY=",
+  "success": true,
   "projectFilePath": "C:\\Users\\user\\Downloads\\OopsAllLalafellsSRE-main\\OopsAllLalafellsSRE\\OopsAllLalafellsSRE.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Невозможно прочитать сведения о проекте для \"OopsAllLalafellsSRE\": Идентификатор платформы \"\" недопустим."
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dalamudpackager\\12.0.0\\dalamudpackager.12.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\penumbra.api\\5.3.0\\penumbra.api.5.3.0.nupkg.sha512"
+  ],
+  "logs": []
 }
