@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0-windows7.0": {
-      "DalamudPackager/12.0.0": {
+      "DalamudPackager/13.0.0": {
         "type": "package",
         "build": {
           "build/DalamudPackager.props": {},
@@ -12,15 +12,26 @@
           "buildMultiTargeting/DalamudPackager.props": {}
         }
       },
-      "Penumbra.Api/5.3.0": {
+      "DotNet.ReproducibleBuilds/1.2.25": {
+        "type": "package",
+        "build": {
+          "buildTransitive/DotNet.ReproducibleBuilds.props": {},
+          "buildTransitive/DotNet.ReproducibleBuilds.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.props": {},
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.targets": {}
+        }
+      },
+      "Penumbra.Api/5.10.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0-windows7.0/Penumbra.Api.dll": {
+          "lib/net9.0-windows7.0/Penumbra.Api.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-windows7.0/Penumbra.Api.dll": {
+          "lib/net9.0-windows7.0/Penumbra.Api.dll": {
             "related": ".xml"
           }
         }
@@ -28,17 +39,17 @@
     }
   },
   "libraries": {
-    "DalamudPackager/12.0.0": {
-      "sha512": "J5TJLV3f16T/E2H2P17ClWjtfEBPpq3yxvqW46eN36JCm6wR+EaoaYkqG9Rm5sHqs3/nK/vKjWWyvEs/jhKoXw==",
+    "DalamudPackager/13.0.0": {
+      "sha512": "Mb3cUDSK/vDPQ8gQIeuCw03EMYrej1B4J44a1AvIJ9C759p9XeqdU9Hg4WgOmlnlPe0G7ILTD32PKSUpkQNa8w==",
       "type": "package",
-      "path": "dalamudpackager/12.0.0",
+      "path": "dalamudpackager/13.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/DalamudPackager.props",
         "build/DalamudPackager.targets",
         "buildMultiTargeting/DalamudPackager.props",
-        "dalamudpackager.12.0.0.nupkg.sha512",
+        "dalamudpackager.13.0.0.nupkg.sha512",
         "dalamudpackager.nuspec",
         "tasks/net48/DalamudPackager.dll",
         "tasks/net48/Newtonsoft.Json.dll",
@@ -48,25 +59,44 @@
         "tasks/netstandard2.1/YamlDotNet.dll"
       ]
     },
-    "Penumbra.Api/5.3.0": {
-      "sha512": "WThL0e5UnkIESgsvihzss91h6Ny/UUq3ghSR0/npC7rBgqnWjml7/KWcUkDMWTpw6NLUp8DAivJwOtcZR95wLA==",
+    "DotNet.ReproducibleBuilds/1.2.25": {
+      "sha512": "xCXiw7BCxHJ8pF6wPepRUddlh2dlQlbr81gXA72hdk4FLHkKXas7EH/n+fk5UCA/YfMqG1Z6XaPiUjDbUNBUzg==",
       "type": "package",
-      "path": "penumbra.api/5.3.0",
+      "path": "dotnet.reproduciblebuilds/1.2.25",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/net8.0-windows7.0/Penumbra.Api.dll",
-        "lib/net8.0-windows7.0/Penumbra.Api.xml",
-        "penumbra.api.5.3.0.nupkg.sha512",
+        "build/DotNet.ReproducibleBuilds.props",
+        "build/DotNet.ReproducibleBuilds.targets",
+        "buildMultiTargeting/DotNet.ReproducibleBuilds.props",
+        "buildMultiTargeting/DotNet.ReproducibleBuilds.targets",
+        "buildTransitive/DotNet.ReproducibleBuilds.props",
+        "buildTransitive/DotNet.ReproducibleBuilds.targets",
+        "dotnet.reproduciblebuilds.1.2.25.nupkg.sha512",
+        "dotnet.reproduciblebuilds.nuspec"
+      ]
+    },
+    "Penumbra.Api/5.10.0": {
+      "sha512": "ZRIIXQCluNlLoI4I4gNYuYXqb7p48OR1P2/LcL27owToR/A/IG0mH8Ks2HguB/Kjq4RpCinaVkyufpGxGspbTA==",
+      "type": "package",
+      "path": "penumbra.api/5.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net9.0-windows7.0/Penumbra.Api.dll",
+        "lib/net9.0-windows7.0/Penumbra.Api.xml",
+        "penumbra.api.5.10.0.nupkg.sha512",
         "penumbra.api.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
-      "DalamudPackager >= 12.0.0",
-      "Penumbra.Api >= 5.3.0"
+      "DalamudPackager >= 13.0.0",
+      "DotNet.ReproducibleBuilds >= 1.2.25",
+      "Penumbra.Api >= 5.10.0"
     ]
   },
   "packageFolders": {
@@ -125,11 +155,16 @@
         "dependencies": {
           "DalamudPackager": {
             "target": "Package",
-            "version": "[12.0.0, )"
+            "version": "[13.0.0, )"
+          },
+          "DotNet.ReproducibleBuilds": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.2.25, )"
           },
           "Penumbra.Api": {
             "target": "Package",
-            "version": "[5.3.0, )"
+            "version": "[5.10.0, )"
           }
         },
         "imports": [
@@ -148,7 +183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

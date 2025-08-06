@@ -1,12 +1,10 @@
+C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\OopsAllLalafellsSRE.deps.json
+C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\OopsAllLalafellsSRE.dll
+C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\Penumbra.Api.dll
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.csproj.AssemblyReference.cache
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.AssemblyInfoInputs.cache
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.AssemblyInfo.cs
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.csproj.CoreCompileInputs.cache
-C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\OopsAllLalafellsSRE.deps.json
-C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\OopsAllLalafellsSRE.dll
-C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\OopsAllLalafellsSRE.pdb
-C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\bin\x64\Debug\Penumbra.Api.dll
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllL.353213E5.Up2Date
 C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.dll
-C:\Users\user\Downloads\OopsAllLalafellsSRE-main\OopsAllLalafellsSRE\obj\x64\Debug\OopsAllLalafellsSRE.pdb

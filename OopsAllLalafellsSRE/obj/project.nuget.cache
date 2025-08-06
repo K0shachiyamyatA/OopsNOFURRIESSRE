@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jrEWi9pbtvY=",
+  "dgSpecHash": "XPNGDS26pxQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Downloads\\OopsAllLalafellsSRE-main\\OopsAllLalafellsSRE\\OopsAllLalafellsSRE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\dalamudpackager\\12.0.0\\dalamudpackager.12.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\penumbra.api\\5.3.0\\penumbra.api.5.3.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\dalamudpackager\\13.0.0\\dalamudpackager.13.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\dotnet.reproduciblebuilds\\1.2.25\\dotnet.reproduciblebuilds.1.2.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\penumbra.api\\5.10.0\\penumbra.api.5.10.0.nupkg.sha512"
   ],
   "logs": []
 }
