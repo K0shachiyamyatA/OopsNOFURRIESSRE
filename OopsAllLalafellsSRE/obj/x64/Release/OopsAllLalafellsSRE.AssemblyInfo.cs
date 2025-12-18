@@ -19,6 +19,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("OopsAllLalafellsSRE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OopsAllLalafellsSRE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.2.3")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

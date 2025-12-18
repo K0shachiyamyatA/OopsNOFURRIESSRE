@@ -3,12 +3,12 @@
   "Name": "OopsNOFURRIESSRE",
   "InternalName": "OopsAllLalafellsSRE",
   "AssemblyVersion": "2.0.2.3",
-  "Description": "Turn furries around you into Lalafells (or other races!)\n/nof on = enable plugin.\n/nof off = disable plugin.",
+  "Description": "Turn furries around you into Lalafells (or other races!)",
   "ApplicableVersion": "any",
   "Tags": [
     "lalafells"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
