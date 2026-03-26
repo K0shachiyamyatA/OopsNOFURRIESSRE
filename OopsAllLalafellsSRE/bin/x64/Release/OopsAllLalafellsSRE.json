@@ -3,7 +3,7 @@
   "Name": "OopsNOFURRIESSRE",
   "InternalName": "OopsAllLalafellsSRE",
   "AssemblyVersion": "2.0.2.3",
-  "Description": "Turn furries around you into Lalafells (or other races!)",
+  "Description": "Turn furries around you into Lalafells (or other races!)\n/nof on = enable plugin.\n/nof off = disable plugin.",
   "ApplicableVersion": "any",
   "Tags": [
     "lalafells"

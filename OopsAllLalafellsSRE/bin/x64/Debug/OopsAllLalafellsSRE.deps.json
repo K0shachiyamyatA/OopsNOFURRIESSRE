@@ -1,28 +1,24 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v9.0",
+    "name": ".NETCoreApp,Version=v10.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v9.0": {
+    ".NETCoreApp,Version=v10.0": {
       "OopsAllLalafellsSRE/2.0.2.3": {
         "dependencies": {
-          "DalamudPackager": "13.0.0",
-          "DotNet.ReproducibleBuilds": "1.2.25",
-          "Penumbra.Api": "5.10.0"
+          "Penumbra.Api": "5.13.1"
         },
         "runtime": {
           "OopsAllLalafellsSRE.dll": {}
         }
       },
-      "DalamudPackager/13.0.0": {},
-      "DotNet.ReproducibleBuilds/1.2.25": {},
-      "Penumbra.Api/5.10.0": {
+      "Penumbra.Api/5.13.1": {
         "runtime": {
-          "lib/net9.0-windows7.0/Penumbra.Api.dll": {
-            "assemblyVersion": "5.10.0.0",
-            "fileVersion": "5.10.0.0"
+          "lib/net10.0-windows7.0/Penumbra.Api.dll": {
+            "assemblyVersion": "5.13.1.0",
+            "fileVersion": "5.13.1.0"
           }
         }
       }
@@ -34,26 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DalamudPackager/13.0.0": {
+    "Penumbra.Api/5.13.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Mb3cUDSK/vDPQ8gQIeuCw03EMYrej1B4J44a1AvIJ9C759p9XeqdU9Hg4WgOmlnlPe0G7ILTD32PKSUpkQNa8w==",
-      "path": "dalamudpackager/13.0.0",
-      "hashPath": "dalamudpackager.13.0.0.nupkg.sha512"
-    },
-    "DotNet.ReproducibleBuilds/1.2.25": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xCXiw7BCxHJ8pF6wPepRUddlh2dlQlbr81gXA72hdk4FLHkKXas7EH/n+fk5UCA/YfMqG1Z6XaPiUjDbUNBUzg==",
-      "path": "dotnet.reproduciblebuilds/1.2.25",
-      "hashPath": "dotnet.reproduciblebuilds.1.2.25.nupkg.sha512"
-    },
-    "Penumbra.Api/5.10.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZRIIXQCluNlLoI4I4gNYuYXqb7p48OR1P2/LcL27owToR/A/IG0mH8Ks2HguB/Kjq4RpCinaVkyufpGxGspbTA==",
-      "path": "penumbra.api/5.10.0",
-      "hashPath": "penumbra.api.5.10.0.nupkg.sha512"
+      "sha512": "sha512-kmpqhcbnnF+Ib0F9g7+1W17IbZ8Q8G2zn3MJURd/rmQiB3D7cm8YS2JRmvhDzrN5w9OMlfq7MFxVtwG419YkIA==",
+      "path": "penumbra.api/5.13.1",
+      "hashPath": "penumbra.api.5.13.1.nupkg.sha512"
     }
   }
 }

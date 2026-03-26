@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v10.0": {
       "OopsAllLalafellsSRE/2.0.2.3": {
         "dependencies": {
-          "Penumbra.Api": "5.12.0"
+          "Penumbra.Api": "5.13.1"
         },
         "runtime": {
           "OopsAllLalafellsSRE.dll": {}
         }
       },
-      "Penumbra.Api/5.12.0": {
+      "Penumbra.Api/5.13.1": {
         "runtime": {
-          "lib/net9.0-windows7.0/Penumbra.Api.dll": {
-            "assemblyVersion": "5.12.0.0",
-            "fileVersion": "5.12.0.0"
+          "lib/net10.0-windows7.0/Penumbra.Api.dll": {
+            "assemblyVersion": "5.13.1.0",
+            "fileVersion": "5.13.1.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Penumbra.Api/5.12.0": {
+    "Penumbra.Api/5.13.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XGWviAZgokj2djpH50FWgM24jOTpKUuDHvd0HwrzBRY6BEMmpb3HfGIl8+BDE/DqbpH63u6aO2TvzUV6BmXT5w==",
-      "path": "penumbra.api/5.12.0",
-      "hashPath": "penumbra.api.5.12.0.nupkg.sha512"
+      "sha512": "sha512-kmpqhcbnnF+Ib0F9g7+1W17IbZ8Q8G2zn3MJURd/rmQiB3D7cm8YS2JRmvhDzrN5w9OMlfq7MFxVtwG419YkIA==",
+      "path": "penumbra.api/5.13.1",
+      "hashPath": "penumbra.api.5.13.1.nupkg.sha512"
     }
   }
 }
